@@ -47,6 +47,10 @@ app.use("/api/v1/usersAuth", authRouter);
 app.use("/api/v1/tasks", taskRouter);
 app.use("/api/v1/users", userRouter);
 
+app.get("/", (req, res) => {
+  res.redirect("/to-do");
+});
+
 // html pages routing
 app.get("/sign-up", checkAuth, (req, res) => {
   if (res.locals.status == 401) {
@@ -65,7 +69,7 @@ app.get("/login", checkAuth, (req, res) => {
 
 app.get("/to-do", checkAuth, (req, res) => {
   if (res.locals.status == 401) {
-    res.send("<h1>You must login to see this page");
+    res.redirect("/login");
   } else if (res.locals.status == 403) {
     res.send("<h1>You are not authorized to see this page");
   } else {
