@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style/profile.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <header>
+      <a href="/to-do">To-do list</a>
+    </header>
+    <main>
+      <div>
+        <span>Username: <b id="username"></b></span>
+      </div>
+      <div>
+        <span>Email: <b id="email"></b></span><br />
+      </div>
+      <div>
+        <span>Password:</span>
+        <input
+          id="password"
+          type="password"
+          disabled
+          placeholder="Enter old password"
+        />
+        <button id="chPass">Change password</button>
+      </div>
+      <input
+        type="password"
+        placeholder="Enter new password [min length 8]"
+        id="newPass"
+      /><br />
+      <input type="password" placeholder="Confirm password" id="newPassCon" />
+      <button id="update">Update profile</button><br />
+      <button id="logout">Logout</button>
+      <p id="mess"></p>
+    </main>
+    <script src="./script/profile.js"></script>
+  </body>
+</html>

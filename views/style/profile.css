@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(20, 52, 53);
+  padding-left: 10px;
+}
+
+div {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+span {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+input {
+  width: 300px;
+  height: 25px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  outline: none;
+}
+div button {
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 180px;
+  background-color: rgb(25, 91, 71);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#update {
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 120px;
+  background-color: rgb(25, 88, 50);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#logout {
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 120px;
+  background-color: rgb(75, 26, 26);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  color: rgb(41, 19, 19);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#newPass,
+#newPassCon {
+  display: block;
+  margin-left: 107px;
+  visibility: hidden;
+  outline: 5px solid green;
+}
+#newPass {
+  margin-top: 15px;
+}
+
+header {
+  background-color: rgb(13, 29, 29);
+  height: 50px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+}
+header a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: rgb(27, 84, 64);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 15px;
+}
