@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "to-do app project",
   "main": "app.js",
+  "engines": {
+    "node": ">=18 <19"
+  },
   "scripts": {
     "start": "nodemon app.js"
   },
