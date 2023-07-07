@@ -52,10 +52,7 @@ Some inner work:
 
    * Error handling
 
-# Link 
-https://to-do-dy5e.onrender.com
-
    * Input validation
 
-
-And still learning ...
+# Link 
+https://to-do-dy5e.onrender.com
