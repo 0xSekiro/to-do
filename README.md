@@ -1,15 +1,10 @@
 # To-do-app with Authentication & Authorization system
-To-do list app with Authentication & Auhtorization system +1100 line of code
+To-do list app with Authentication & Auhtorization system 
 
 
 front-end: Html - Css - Js ( Vanilla )
 
-back-end: NodeJs - Express - MongoDB (Mongoose & MongoDbBompass)
-
-
-* Server run on port 3000 you can change it from config.env file
-
-* DB link in config.env file you can modify it 
+back-end: NodeJs - Express - MongoDB (Mongoose & MongoDbBompass) 
 
 
 Authentication: 
